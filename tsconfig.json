@@ -1,0 +1,34 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"experimentalDecorators": true,
+		"lib": [
+			"dom",
+			"esnext"
+		],
+		"baseUrl": ".",
+		"paths": {
+			"/@/*": [
+				"src/*"
+			]
+		},
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.tsx",
+		"src/**/*.vue",
+		"src/types/shim.d.ts",
+		"src/types/soutce.d.ts",
+		"tests/**/*.ts",
+		"tests/**/*.tsx",
+		"src/index.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
