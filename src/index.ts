@@ -1,5 +1,5 @@
 import './index.css'
-import HelloWorld from "/@/components/HelloWorld.vue";
+import HelloWorld from "./components/HelloWorld.vue";
 
 
 const install = (Vue:any) => {
