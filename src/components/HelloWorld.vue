@@ -8,8 +8,9 @@
 </template>
 
 <script lang="ts">
+    import { defineComponent } from "vue";
     import { count } from "/@/components/count.ts";
-    export default {
+    export default defineComponent({
         name: "HelloWorld",
         props: {
             msg: String,
@@ -19,8 +20,6 @@
                 count,
             };
         },
-    };
+    });
 </script>
-<style scoped>
-
-</style>
+<style scoped></style>
