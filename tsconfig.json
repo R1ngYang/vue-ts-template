@@ -2,8 +2,9 @@
 	"compilerOptions": {
 		"target": "esnext",
 		"module": "esnext",
-		"moduleResolution": "node",
 		"strict": true,
+		"jsx": "preserve",
+		"moduleResolution": "node",
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"experimentalDecorators": true,
